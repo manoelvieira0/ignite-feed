@@ -17,7 +17,7 @@ const posts = [
       name: "Manoel Vieira",
       role: "Web Developer"
     },
-    publishedAt: new Date(),
+    publishedAt: new Date("2023-11-04 10:00:00"),
     content: [
       { type: 'paragraph', content: "Fala galera 🤚🏽" },
       { type: 'paragraph', content: "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀" },
@@ -27,11 +27,11 @@ const posts = [
   {
     id: 2,
     author: {
-      avatar_url: "https://github.com/manoelvieira0.png",
-      name: "Manoel Vieira",
-      role: "Web Developer"
+      avatar_url: "https://github.com/diego3g.png",
+      name: "Diego Fernandes",
+      role: "CTO Rocketseat"
     },
-    publishedAt: new Date('2023-11-05 10:00:00'),
+    publishedAt: new Date('2023-11-03 10:00:00'),
     content: [
       { type: 'paragraph', content: "Fala galera 🤚🏽" },
       { type: 'paragraph', content: "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é IgniteLab 🚀" },
